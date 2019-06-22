@@ -1,0 +1,1 @@
+SELECT b.title, COUNT(*) AS `rent_nr` FROM rent AS r JOIN book AS b ON b.book_id = r.book_id WHERE r.date >= '2008-01-01 00:00:00' AND r.date <= '2008-12-31 23:59:59' GROUP BY b.book_id;
