@@ -1,6 +1,6 @@
 <?php
 
-$array = [3, 6, -3, 5, -10, 3, 10, 1, 7, -1, -9, -8, 7, 7, -7, -2, -7];
+$arr = [3, 6, -3, 5, -10, 3, 10, 1, 7, -1, -9, -8, 7, 7, -7, -2, -7];
 
 function getNumberOfPairsWithZeroSum(array $array) : int
 {
@@ -20,6 +20,6 @@ function getNumberOfPairsWithZeroSum(array $array) : int
     return $result;
 }
 
-$result = getNumberOfPairsWithZeroSum($array);
+$result = getNumberOfPairsWithZeroSum($arr);
 
 var_dump($result);
