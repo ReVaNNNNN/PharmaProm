@@ -1,5 +1,5 @@
 	 	 	 	
-1. [PHP] Write unit tests for function 'sum':
+I. [PHP] Write unit tests for function 'sum':
 
 public function sum($a, $b)
 {
@@ -10,14 +10,14 @@ public function sum($a, $b)
 }
 
 
-2. [PHP] You have an array with n numbers from -10 to 10 (without 0). Implement function which returns quantity of pairs from the array which sum gives 0.
+II. [PHP] You have an array with n numbers from -10 to 10 (without 0). Implement function which returns quantity of pairs from the array which sum gives 0.
 
 For example:
 $input = array (3, 6, -3, 5, -10, 3, 10, 1, 7, -1, -9, -8, 7, 7, -7, -2, -7);
 The right answer is 5 (pairs are bolded)
 
 
-3. [PHP] Design 'Aquarium' class system with given requirements:
+III. [PHP] Design 'Aquarium' class system with given requirements:
 - we can put fish, turtles and plants in the aquarium
 - fish, turtles and plants must breathe
 - fish and turtles both must swim, but in a different ways
@@ -30,10 +30,10 @@ The right answer is 5 (pairs are bolded)
 
 
 
-4. [SQL] Extract ALL books' titles with the number of rents in 2008 using SQL query.
+IV. [SQL] Extract ALL books' titles with the number of rents in 2008 using SQL query.
 
 
 
-5. [SQL] Using SQL query extract the list of users having excatly 3 defined attributes (i.e. with ID 1, 2, 4). Using only IDs from ‘system_user_has_attribute’ is good enough.
+V. [SQL] Using SQL query extract the list of users having excatly 3 defined attributes (i.e. with ID 1, 2, 4). Using only IDs from ‘system_user_has_attribute’ is good enough.
 
 
